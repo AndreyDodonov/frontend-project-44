@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import chalk from 'chalk'
-import { startGreetings, questUser, randomGen } from '../src/quest_name.js'
+import { startGreetings, questUser, randomGen } from '../src/misc.js'
 
 // приветствуем и получаем имя
 let name = startGreetings()

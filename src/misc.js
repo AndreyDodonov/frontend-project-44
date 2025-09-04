@@ -16,8 +16,8 @@ export function startGreetings() {
   return name
 }
 
-export function randomGen() {
+export function randomGen(count = 99) {
   const arr = new Uint8Array(1)
   crypto.getRandomValues(arr)
-  return (arr[0] % 99) + 1
+  return (arr[0] % count) + 1
 }
