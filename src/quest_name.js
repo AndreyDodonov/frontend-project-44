@@ -2,6 +2,7 @@
 */
 import readlineSync from 'readline-sync'
 import chalk from 'chalk'
+import crypto from 'crypto'
 
 export function questUser(questString) {
   const userAnswer = readlineSync.question(questString)
@@ -16,5 +17,7 @@ export function startGreetings() {
 }
 
 export function randomGen() {
-  return Math.floor(Math.random() * 99) + 1
+  const arr = new Uint8Array(1)
+  crypto.getRandomValues(arr)
+  return (arr[0] % 99) + 1
 }
