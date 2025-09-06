@@ -11,3 +11,5 @@
 Запись [brain-gcd](https://asciinema.org/a/7aiaTzIj786t04PADp0mveS4d)
 
 Запись [brain-progression](https://asciinema.org/a/5kavfyctqEgLJyrr75RjnfkUx)
+
+Запись [brain-prime](https://asciinema.org/a/dLm9uq0Il2XS97iLK1Jvu08Fx)
