@@ -15,5 +15,5 @@ export function progressionMasked(progression, idx) {
   let progressionArr = progression
   progressionArr[idx] = '..' // скрываем заданное число
 
-  return progressionArr // возвращаем новый изменённый массив
+  return progressionArr.join(', ') // возвращаем новый изменённый массив в виде строки
 }
