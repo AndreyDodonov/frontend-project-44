@@ -5,4 +5,7 @@
 
 
 Запись [brain-even](https://asciinema.org/a/LmmMrUWHCPgCZtacjv4u9q1VE)
+
 Запись [brain-calc](https://asciinema.org/a/UM4dBEoRpivd65IdbVyXyBSIU)
+
+Запись [brain-gcd](https://asciinema.org/a/7aiaTzIj786t04PADp0mveS4d)
