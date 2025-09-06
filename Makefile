@@ -7,8 +7,8 @@ brain-games:
 publish:
 	npm publish --dry-run
 
-make lint:
+lint:
 	npx eslint
 
-make lint-fix:
+lint-fix:
 	npx eslint --fix
