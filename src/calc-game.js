@@ -45,6 +45,7 @@ export function calcGame() {
     }
     else {
       console.log(chalk.red(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rigthAnswer}'`))
+      console.log(`Let's try again, ${name}!`)
       roundCounter = 4
     }
     if (roundCounter === 3) {
